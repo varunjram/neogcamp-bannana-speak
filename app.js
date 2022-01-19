@@ -1,11 +1,16 @@
-console.log("script is working from adiffrent file")
-
-var username = prompt("Give me an answer")
-
-
-alert("this script works " + username)
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-Input")
+var outputDiv = document.querySelector("#output")
 
 
+function clickHandler () {
 
+    outputDiv.innerText = "ccdfcdc " + txtInput.value
+
+
+}
+
+
+btnTranslate.addEventListener("click" , clickHandler )
 
 
