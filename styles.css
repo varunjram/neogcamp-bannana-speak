@@ -4,9 +4,65 @@
 :root {
 
     /* --colorbanana --co */
+    --primary-color: #fbd85a;
+    --secondary-color: #375b7d;
 }
 
 body {
 
     font-family: 'Architects Daughter', sans-serif;
+
+    margin: 0px;
+
+}
+
+
+#output {
+
+
+    border: 1px solid black;
+    height: 15vh;
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+    background-color: white;
+
+
+
+}
+
+.style {
+
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    padding:0.75rem;
+
+
+}
+
+.style2 {
+
+    background-image: url("/img/background\ banana.jpg");
+    text-align: center;
+    padding: 5.5rem;
+
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+
+.div-style1 {
+
+    margin: auto;
+}
+
+
+.footer {
+
+    color: var(--primary-color);
+
+    background-color: var(--secondary-color);
 }
