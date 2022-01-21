@@ -36,13 +36,20 @@ body {
 
     margin: 1rem;
     padding: 3px;
-    text-size-adjust: ;
 
 }
 
 #btn-translate:hover {
 
     box-shadow: inset -10.5em 0 0 0 #fbd85a, inset 10.5em 0 0 0 #fbd85a ;
+}
+
+
+span {
+
+    font-size: larger;
+    font-weight: bold;
+    color: var(--secondary-color);
 }
 
 
