@@ -6,6 +6,8 @@
     /* --colorbanana --co */
     --primary-color: #fbd85a;
     --secondary-color: #375b7d;
+    --backgroung-color: #FFF1CC;
+
 }
 
 body {
@@ -16,18 +18,44 @@ body {
 
 }
 
+#txt-Input {
+
+    border: 1px solid var(--secondary-color);
+    border-radius: 30px;
+    width: 40%;
+    height: 10vh;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    background-color: var(--backgroung-color);
+
+
+}
+
+#btn-translate {
+
+    margin: 1rem;
+    padding: 3px;
+    text-size-adjust: ;
+
+}
+
+#btn-translate:hover {
+
+    box-shadow: inset -10.5em 0 0 0 #fbd85a, inset 10.5em 0 0 0 #fbd85a ;
+}
+
 
 #output {
 
 
-    border: 1px solid black;
-    height: 15vh;
+    border: 0.5px solid var(--secondary-color) ;
+    border-radius: 30px;
+    height: 10vh;
     width: 40%;
     margin: auto;
     padding: 1rem;
-    background-color: white;
-
-
+    background-color: var(--backgroung-color);
 
 }
 
@@ -36,17 +64,20 @@ body {
     color: var(--secondary-color);
     background-color: var(--primary-color);
     text-align: center;
-    padding:0.75rem;
-
+    padding: 0.75rem;
 
 }
 
 .style2 {
 
     background-image: url("/img/background\ banana.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
     text-align: center;
     padding: 5.5rem;
-
+    
 }
 
 .container {
@@ -63,6 +94,7 @@ body {
 .footer {
 
     color: var(--primary-color);
-
     background-color: var(--secondary-color);
+    text-align: center;
+    padding: 0rem  5rem ;
 }
