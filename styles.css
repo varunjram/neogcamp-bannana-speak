@@ -1,107 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 
 :root {
-
-    /* --colorbanana --co */
-    --primary-color: #fbd85a;
-    --secondary-color: #375b7d;
-    --backgroung-color: #FFF1CC;
-
+  /* --colorbanana --co */
+  --primary-color: #fbd85a;
+  --secondary-color: #375b7d;
+  --backgroung-color: #fff1cc;
 }
 
 body {
-
-    font-family: 'Architects Daughter', sans-serif;
-
-    margin: 0px;
-
+  font-family: "Architects Daughter", sans-serif;
+  margin: 0px;
 }
 
 #txt-Input {
-
-    border: 1px solid var(--secondary-color);
-    border-radius: 30px;
-    width: 40%;
-    height: 10vh;
-    display: block;
-    margin: auto;
-    padding: 1rem;
-    background-color: var(--backgroung-color);
-
-
+  border: 1px solid var(--secondary-color);
+  border-radius: 30px;
+  width: 40%;
+  height: 10vh;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--backgroung-color);
 }
 
 #btn-translate {
-
-    margin: 1rem;
-    padding: 3px;
-
+  margin: 1rem;
+  padding: 3px;
 }
 
 #btn-translate:hover {
-
-    box-shadow: inset -10.5em 0 0 0 #fbd85a, inset 10.5em 0 0 0 #fbd85a ;
+  box-shadow: inset -10.5em 0 0 0 #fbd85a, inset 10.5em 0 0 0 #fbd85a;
 }
-
 
 span {
-
-    font-size: larger;
-    font-weight: bold;
-    color: var(--secondary-color);
+  font-size: larger;
+  font-weight: bold;
+  color: var(--secondary-color);
 }
 
-
 #output {
-
-
-    border: 0.5px solid var(--secondary-color) ;
-    border-radius: 30px;
-    height: 10vh;
-    width: 40%;
-    margin: auto;
-    padding: 1rem;
-    background-color: var(--backgroung-color);
-
+  border: 0.5px solid var(--secondary-color);
+  border-radius: 30px;
+  height: 10vh;
+  width: 40%;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--backgroung-color);
 }
 
 .style {
-
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 0.75rem;
-
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 0.75rem;
+  height: 98vh;
 }
 
 .style2 {
-
-    background-image: url("/img/background\ banana.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    text-align: center;
-    padding: 5.5rem;
-    
+  background-image: url("/img/background\ banana.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 5.5rem;
+  height: 45vh;
 }
 
 .container {
-    padding: 0rem 1rem;
+  padding: 0rem 1rem;
 }
-
 
 .div-style1 {
-
-    margin: auto;
+  margin: auto;
 }
 
-
 .footer {
-
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    text-align: center;
-    padding: 0rem  5rem ;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 0rem 5rem;
+  font-size: 20px;
 }
